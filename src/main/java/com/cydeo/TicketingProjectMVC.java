@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TicketingProjectMVC {
 
     // Method to start up server
-    // Time to get started
+    // Time to get started tomorrow night
     public static void main(String[] args) {
         SpringApplication.run(TicketingProjectMVC.class, args);
     }
