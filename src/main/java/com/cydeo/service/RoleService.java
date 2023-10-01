@@ -1,6 +1,6 @@
 package com.cydeo.service;
 
-public class RoleService {
+public interface RoleService {
 
-    // save, findBy,
+    // save, findBy, delete, findAll
 }
