@@ -4,6 +4,6 @@ import com.cydeo.dto.UserDTO;
 
 import java.util.List;
 
-public interface UserService extends CrudService<UserDTO, String>{
+public interface UserService extends CrudService <UserDTO, String>{
 
 }
