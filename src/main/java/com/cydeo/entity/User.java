@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 @Data
-public class User {
+public class User extends BaseEntity{
 
     private String firstName;
     private String lastName;
