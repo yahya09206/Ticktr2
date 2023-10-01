@@ -8,6 +8,7 @@ public class TicketingProjectMVC {
 
     // Method to start up server
     // Time to get started tomorrow night
+    // Run on localhost:8080
     public static void main(String[] args) {
         SpringApplication.run(TicketingProjectMVC.class, args);
     }
