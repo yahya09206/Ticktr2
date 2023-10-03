@@ -18,4 +18,12 @@ public class AbstractMapService<T, ID> {
     List<T> findAll(){
         return new ArrayList<>(map.values());
     }
+
+    T findById(T id){
+        return map.get(id);
+    }
+
+    void deleteById(ID id){
+        map.remove(id);
+    }
 }
