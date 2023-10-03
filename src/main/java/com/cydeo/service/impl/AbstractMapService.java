@@ -19,7 +19,7 @@ public class AbstractMapService<T, ID> {
         return new ArrayList<>(map.values());
     }
 
-    T findById(Long id){
+    T findById(ID id){
         return map.get(id);
     }
 
