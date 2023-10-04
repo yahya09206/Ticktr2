@@ -40,5 +40,6 @@ public class UserController {
         userService.save(user);
         model.addAttribute("users", userService.findAll());
         return "/user/create";
+//        return "redirect:/user/create";
     }
 }
