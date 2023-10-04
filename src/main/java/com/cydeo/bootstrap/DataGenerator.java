@@ -11,5 +11,7 @@ public class DataGenerator implements CommandLineRunner {
         RoleDTO adminRole = new RoleDTO(1L, "Admin");
         RoleDTO managerRole = new RoleDTO(2L, "Manager");
         RoleDTO employeeRole = new RoleDTO(3L, "Employee");
+
+
     }
 }
