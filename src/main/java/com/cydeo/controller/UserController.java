@@ -34,7 +34,7 @@ public class UserController {
     @PostMapping("/create")
     public String insertUser(UserDTO user, Model model){
 
-        model.addAttribute("users", new UserDTO());
+        model.addAttribute("user", new UserDTO());
         model.addAttribute("roles", roleService.findAll());
 
         userService.save(user);
