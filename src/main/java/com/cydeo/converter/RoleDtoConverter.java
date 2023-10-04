@@ -1,11 +1,12 @@
 package com.cydeo.converter;
 
 import com.cydeo.dto.RoleDTO;
-import org.springframework.cglib.core.Converter;
+import org.springframework.core.convert.converter.Converter;
 
 public class RoleDtoConverter implements Converter<String, RoleDTO> {
+
     @Override
-    public Object convert(Object o, Class aClass, Object o1) {
+    public RoleDTO convert(String source) {
         return null;
     }
 }
