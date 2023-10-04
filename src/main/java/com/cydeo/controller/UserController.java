@@ -31,7 +31,9 @@ public class UserController {
     }
 
     @PostMapping("/create")
-    public String insertUser(){
+    public String insertUser(Model model){
 
+        model.addAttribute("users", new UserDTO());
+        return "/user/create";
     }
 }
