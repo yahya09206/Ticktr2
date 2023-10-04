@@ -34,6 +34,8 @@ public class UserController {
     public String insertUser(Model model){
 
         model.addAttribute("users", new UserDTO());
+        model.addAttribute("roles", roleService.findAll());
+        model.addAttribute("users", userService.findAll());
         return "/user/create";
     }
 }
