@@ -17,6 +17,7 @@ public class RoleDtoConverter implements Converter<String, RoleDTO> {
         this.roleService = roleService;
     }
 
+    // Fixing converting to string error
     @Override
     public RoleDTO convert(String source) {
         return roleService.findById(Long.parseLong(source));
