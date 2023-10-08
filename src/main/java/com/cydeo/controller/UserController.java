@@ -25,6 +25,7 @@ public class UserController {
     @GetMapping("/create")
     public String createUser(Model model){
 
+        // new objjects for role and user services
         model.addAttribute("user", new UserDTO());
         model.addAttribute("roles", roleService.findAll());
         model.addAttribute("users", userService.findAll());
