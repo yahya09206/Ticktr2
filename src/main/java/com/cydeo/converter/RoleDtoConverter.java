@@ -13,6 +13,7 @@ public class RoleDtoConverter implements Converter<String, RoleDTO> {
     // converter class
     RoleService roleService;
 
+    // DTO Converter
     public RoleDtoConverter(RoleService roleService) {
         this.roleService = roleService;
     }
