@@ -48,6 +48,7 @@ public class DataGenerator implements CommandLineRunner {
         UserDTO user8 = new UserDTO("Bill",
                 "Matt", "bill@cydeo.com", "Abc4", true, "8881239846", employeeRole, Gender.MALE);
 
+        // calling save method from user service
         userService.save(user1);
         userService.save(user2);
         userService.save(user3);
