@@ -13,6 +13,7 @@ public class LoginController {
         return "login";
     }
 
+    // route to login page
     @RequestMapping("/welcome")
     public String welcome(){
         return "welcome";
