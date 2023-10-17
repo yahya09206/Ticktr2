@@ -15,6 +15,7 @@ public class LoginController {
 
     // route to login page
     @RequestMapping("/welcome")
+    // return welcome page
     public String welcome(){
         return "welcome";
     }
