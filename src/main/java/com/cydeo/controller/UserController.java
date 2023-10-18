@@ -22,6 +22,7 @@ public class UserController {
         this.userService = userService;
     }
 
+    //redirect to create page
     @GetMapping("/create")
     public String createUser(Model model){
 
