@@ -33,7 +33,7 @@ public class UserController {
         return "/user/create";
     }
 
-    // Endpoint to create
+    // Navigate to create page
     @PostMapping("/create")
     public String insertUser(@ModelAttribute("user") UserDTO user, Model model){
 
