@@ -40,6 +40,7 @@ public class UserController {
 //        model.addAttribute("user", new UserDTO());
 //        model.addAttribute("roles", roleService.findAll());
 
+        // save info on refresh
         userService.save(user);
 //        model.addAttribute("users", userService.findAll());
 //        return "/user/create";
