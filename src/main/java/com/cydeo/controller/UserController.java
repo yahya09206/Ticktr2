@@ -28,6 +28,7 @@ public class UserController {
 
         // new objects for role and user services
         model.addAttribute("user", new UserDTO());
+        // return all roles
         model.addAttribute("roles", roleService.findAll());
         model.addAttribute("users", userService.findAll());
         return "/user/create";
