@@ -18,6 +18,7 @@ public class UserController {
     RoleService roleService;
     UserService userService;
 
+    // user controller
     public UserController(RoleService roleService, UserService userService) {
         this.roleService = roleService;
         this.userService = userService;
