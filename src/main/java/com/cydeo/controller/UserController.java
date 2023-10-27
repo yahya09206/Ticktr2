@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 //Annotations
 @Controller
+// annotation for endpoint
 @RequestMapping("/user")
 public class UserController {
 
